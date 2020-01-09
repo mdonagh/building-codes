@@ -17,4 +17,14 @@
 /storage/*
 !/storage/.keep
 
+/node_modules
+/yarn-error.log
+.env
+db/development.sqlite3
+db/test.sqlite3
+
+/public/assets
 .byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
